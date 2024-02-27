@@ -1,0 +1,38 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"zTJpRmrvKX\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Yuvak List</span>\",\"col\":12}},{\"id\":\"txI3wuCz1_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Yuvak List\",\"col\":3}}]",
+ "creation": "2024-02-24 14:48:34.002944",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Yuvak List",
+ "links": [],
+ "modified": "2024-02-27 12:19:42.046706",
+ "modified_by": "Administrator",
+ "module": "Yuvak Mandal Data Management",
+ "name": "Yuvak List",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Yuvak List",
+   "link_to": "Yuvak Registration Form",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Yuvak List"
+}

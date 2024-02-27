@@ -1,0 +1,281 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-23 17:53:28.454283",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_sbpp",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "full_name",
+  "column_break_luft",
+  "date_of_birth",
+  "mobile_number",
+  "education",
+  "column_break_xmmx",
+  "occupation",
+  "address",
+  "section_break_rugk",
+  "is_she_satsangi_",
+  "is_she_doing_pooja_",
+  "is_she_doing_pooja_with_tilak_and_chandlo_",
+  "is_she_come_in_weekly_sabha_",
+  "column_break_flrb",
+  "is_she_come_for_mandir_darshan_",
+  "is_she_do_ghar_sabha_",
+  "does_she_has_some_addiction_wrong_habit_",
+  "does_she_eat_oniongarlic_",
+  "column_break_bwvv",
+  "special_skill",
+  "extra_details",
+  "monthly_income_if_he_is_earn",
+  "section_break_bvkh",
+  "fathers_occupation",
+  "fathers_mobile_number",
+  "is_his_father_is_satsangi_",
+  "column_break_cueo",
+  "mothers_occupation",
+  "mothers_mobile_number",
+  "is_his_mother_is_satsangi_",
+  "route"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_sbpp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Middle Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_global_search": 1,
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_luft",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "in_standard_filter": 1,
+   "label": "Date of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Phone",
+   "label": "Mobile Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xmmx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Data",
+   "label": "Occupation"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Long Text",
+   "label": "Address",
+   "max_height": "150px",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_rugk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "is_she_satsangi_",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is s/he satsangi ?",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "is_she_doing_pooja_",
+   "fieldtype": "Select",
+   "label": "Is s/he doing Pooja ?",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "is_she_doing_pooja_with_tilak_and_chandlo_",
+   "fieldtype": "Select",
+   "label": "Is s/he doing pooja with Tilak and Chandlo ?",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "is_she_come_in_weekly_sabha_",
+   "fieldtype": "Select",
+   "label": "Is s/he come in weekly sabha ?",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_flrb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "is_she_come_for_mandir_darshan_",
+   "fieldtype": "Select",
+   "label": "Is s/he come for Mandir Darshan ?",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "is_she_do_ghar_sabha_",
+   "fieldtype": "Select",
+   "label": "Is s/he do Ghar Sabha ?",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "does_she_has_some_addiction_wrong_habit_",
+   "fieldtype": "Select",
+   "label": "Does s/he has some Addiction (Wrong Habit) ?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "does_she_eat_oniongarlic_",
+   "fieldtype": "Select",
+   "label": "Does s/he eat Onion/Garlic ?",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bwvv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "special_skill",
+   "fieldtype": "Long Text",
+   "label": "Special Skill",
+   "max_height": "80px"
+  },
+  {
+   "fieldname": "extra_details",
+   "fieldtype": "Long Text",
+   "label": "Extra Details",
+   "max_height": "90px"
+  },
+  {
+   "fieldname": "monthly_income_if_he_is_earn",
+   "fieldtype": "Data",
+   "label": "Monthly Income (If he earns)"
+  },
+  {
+   "fieldname": "section_break_bvkh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fathers_occupation",
+   "fieldtype": "Data",
+   "label": "Father's Occupation"
+  },
+  {
+   "fieldname": "fathers_mobile_number",
+   "fieldtype": "Phone",
+   "label": "Father's Mobile Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "is_his_father_is_satsangi_",
+   "fieldtype": "Select",
+   "label": "Is his father is satsangi ?",
+   "options": "Yes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_cueo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mothers_occupation",
+   "fieldtype": "Data",
+   "label": "Mother's Occupation"
+  },
+  {
+   "fieldname": "mothers_mobile_number",
+   "fieldtype": "Phone",
+   "label": "Mother's Mobile Number"
+  },
+  {
+   "fieldname": "is_his_mother_is_satsangi_",
+   "fieldtype": "Select",
+   "label": "Is his mother is satsangi ?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "route"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "route",
+ "links": [],
+ "modified": "2024-02-27 12:18:05.415947",
+ "modified_by": "Administrator",
+ "module": "Yuvak Mandal Data Management",
+ "name": "Yuvak Registration Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "route",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
